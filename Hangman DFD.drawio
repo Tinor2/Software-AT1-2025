@@ -1,0 +1,418 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram name="Page-1" id="ywthNiMjYePhlFCz2Uhy">
+    <mxGraphModel dx="1158" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-1" value="Player" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=light-dark(#FFFFFF,#FF6666);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="20" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-2" value="Choose&lt;div&gt;Difficulty&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;strokeColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#B266FF);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="90" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-4" value="Load Game data" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;strokeColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#B266FF);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="80" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-5" value="Check for end" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=light-dark(#FFFFFF,#FF66B3);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="630" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-7" value="Render word" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=light-dark(#FFFFFF,#FF66B3);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="730" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-8" value="Game Status" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=light-dark(#FFFFFF,#FF66B3);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="360" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-13" value="game_data.json" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;fontStyle=1;strokeColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#B266FF);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="240" y="740" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-13" target="BWCX3i24N0bs6A5otOJ9-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="825" as="sourcePoint" />
+            <mxPoint x="250" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="148" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-19" value="Extract word lists&lt;div&gt;and difficulty keys&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BWCX3i24N0bs6A5otOJ9-17" vertex="1" connectable="0">
+          <mxGeometry x="0.1997" y="-4" relative="1" as="geometry">
+            <mxPoint x="26" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-1" target="BWCX3i24N0bs6A5otOJ9-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="380" as="sourcePoint" />
+            <mxPoint x="290" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-23" value="&lt;font&gt;Input: desired&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;difficulty&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" parent="BWCX3i24N0bs6A5otOJ9-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.2744" y="-3" relative="1" as="geometry">
+            <mxPoint x="26" y="46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-24" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-5" target="BWCX3i24N0bs6A5otOJ9-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="675" as="sourcePoint" />
+            <mxPoint x="386" y="713" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-25" value="Target word&lt;div&gt;and Maximum&lt;/div&gt;&lt;div&gt;points&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BWCX3i24N0bs6A5otOJ9-24" vertex="1" connectable="0">
+          <mxGeometry x="0.1077" y="8" relative="1" as="geometry">
+            <mxPoint x="-3" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-26" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-1" target="9hSV8TDn2q9NOghADnLz-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="350" as="sourcePoint" />
+            <mxPoint x="280" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-27" value="Input: Guess" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BWCX3i24N0bs6A5otOJ9-26" vertex="1" connectable="0">
+          <mxGeometry x="0.1983" y="-23" relative="1" as="geometry">
+            <mxPoint x="-17" y="-42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-30" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-8" target="9hSV8TDn2q9NOghADnLz-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="560" as="sourcePoint" />
+            <mxPoint x="354" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-32" value="Get target word,&lt;br&gt;list of guesses,&amp;nbsp;&lt;div&gt;and points&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" parent="BWCX3i24N0bs6A5otOJ9-30" vertex="1" connectable="0">
+          <mxGeometry x="-0.0894" y="8" relative="1" as="geometry">
+            <mxPoint x="8" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-33" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-8" target="BWCX3i24N0bs6A5otOJ9-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="625" as="sourcePoint" />
+            <mxPoint x="590" y="615" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-34" value="Get target word,&lt;div&gt;list of guesses&lt;/div&gt;&lt;div&gt;and points&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BWCX3i24N0bs6A5otOJ9-33" vertex="1" connectable="0">
+          <mxGeometry x="0.0832" y="-11" relative="1" as="geometry">
+            <mxPoint x="-77" y="-51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-35" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-5" target="BWCX3i24N0bs6A5otOJ9-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="410" as="sourcePoint" />
+            <mxPoint x="210" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="612" y="160" />
+              <mxPoint x="190" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-36" value="Tell the plyer if the game is over&lt;div&gt;or not, if it is, display the target word&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BWCX3i24N0bs6A5otOJ9-35" vertex="1" connectable="0">
+          <mxGeometry x="0.0744" relative="1" as="geometry">
+            <mxPoint x="75" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-37" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-8" target="BWCX3i24N0bs6A5otOJ9-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="675" as="sourcePoint" />
+            <mxPoint x="540" y="665" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-38" value="Get list of guesses&lt;div&gt;and points&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BWCX3i24N0bs6A5otOJ9-37" vertex="1" connectable="0">
+          <mxGeometry x="-0.307" y="20" relative="1" as="geometry">
+            <mxPoint x="57" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-39" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-7" target="BWCX3i24N0bs6A5otOJ9-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="595" as="sourcePoint" />
+            <mxPoint x="90" y="325" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="300" />
+              <mxPoint x="620" y="120" />
+              <mxPoint x="130" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWCX3i24N0bs6A5otOJ9-40" value="Display current progress of&amp;nbsp;&lt;div&gt;correct guesses,&lt;div&gt;as well as all guesses&amp;nbsp;&lt;/div&gt;&lt;div&gt;that have been taken&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BWCX3i24N0bs6A5otOJ9-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.2203" y="-2" relative="1" as="geometry">
+            <mxPoint x="42" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-1" value="&lt;div&gt;verify&lt;/div&gt;guess type" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=light-dark(#FFFFFF,#66B2FF);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="210" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-2" value="Check for&lt;div&gt;duplicate guesses&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=light-dark(#FFFFFF,#66B2FF);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="240" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-2" target="9hSV8TDn2q9NOghADnLz-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="590" as="sourcePoint" />
+            <mxPoint x="426" y="713" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-8" value="Difficulty&lt;div&gt;to be used&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.1819" y="4" relative="1" as="geometry">
+            <mxPoint x="-12" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-5" value="Choose&lt;div&gt;target word&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;strokeColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#B266FF);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="220" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-10" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-4" target="9hSV8TDn2q9NOghADnLz-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="740" as="sourcePoint" />
+            <mxPoint x="230" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-12" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Relevant&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 9px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;word&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 9px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;lists and&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;information&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-10" vertex="1" connectable="0">
+          <mxGeometry x="0.1284" y="-6" relative="1" as="geometry">
+            <mxPoint y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-15" value="Update points&lt;div&gt;and guess list&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=light-dark(#FFFFFF,#66B2FF);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="330" y="340" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-2" target="9hSV8TDn2q9NOghADnLz-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="340" as="sourcePoint" />
+            <mxPoint x="400" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="308" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-19" value="guess&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-18" vertex="1" connectable="0">
+          <mxGeometry x="0.3656" y="6" relative="1" as="geometry">
+            <mxPoint x="-4" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-1" target="9hSV8TDn2q9NOghADnLz-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="470" as="sourcePoint" />
+            <mxPoint x="210" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-22" value="provide guess,&lt;div&gt;and the guess type&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.4324" y="13" relative="1" as="geometry">
+            <mxPoint x="2" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-23" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-8" target="9hSV8TDn2q9NOghADnLz-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="550" as="sourcePoint" />
+            <mxPoint x="350" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-24" value="Get target word,&lt;br&gt;list of guesses,&amp;nbsp;&lt;div&gt;and points&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" parent="9hSV8TDn2q9NOghADnLz-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.0894" y="8" relative="1" as="geometry">
+            <mxPoint x="8" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-15" target="BWCX3i24N0bs6A5otOJ9-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="410" as="sourcePoint" />
+            <mxPoint x="480" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-26" value="Update points,&amp;nbsp;&lt;div&gt;and&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;list of&amp;nbsp;&lt;/span&gt;&lt;div&gt;guesses&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="9hSV8TDn2q9NOghADnLz-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.2266" y="-22" relative="1" as="geometry">
+            <mxPoint x="7" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-27" value="save_file.json" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;fontStyle=1;fillColor=light-dark(#FFFFFF,#FFB366);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="414" y="260" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-29" value="load&lt;div&gt;game&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=light-dark(#FFFFFF,#FFB366);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="330" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-34" value="Save&lt;div&gt;game&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=light-dark(#FFFFFF,#FFB366);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="510" y="380" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-35" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BWCX3i24N0bs6A5otOJ9-1" target="9hSV8TDn2q9NOghADnLz-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="300" as="sourcePoint" />
+            <mxPoint x="290" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-44" value="Input: User&lt;div&gt;request to load game&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-35" vertex="1" connectable="0">
+          <mxGeometry x="0.1269" y="-15" relative="1" as="geometry">
+            <mxPoint x="-27" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-40" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-34" target="9hSV8TDn2q9NOghADnLz-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="380" as="sourcePoint" />
+            <mxPoint x="550" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-48" value="Overwrite&lt;div&gt;current save file&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-40" vertex="1" connectable="0">
+          <mxGeometry x="0.1139" y="10" relative="1" as="geometry">
+            <mxPoint x="-9" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-41" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-15" target="9hSV8TDn2q9NOghADnLz-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="380" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-43" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;All info&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 9px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;of game&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(target, points,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp;guesses, etc)&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-41" vertex="1" connectable="0">
+          <mxGeometry x="0.4453" y="3" relative="1" as="geometry">
+            <mxPoint x="-10" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-46" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-27" target="9hSV8TDn2q9NOghADnLz-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="sourcePoint" />
+            <mxPoint x="520" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-47" value="Load all&lt;div&gt;saved&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;info&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-46" vertex="1" connectable="0">
+          <mxGeometry x="-0.0974" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-49" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.919;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-29" target="BWCX3i24N0bs6A5otOJ9-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="230" as="sourcePoint" />
+            <mxPoint x="550" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="190" />
+              <mxPoint x="700" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-50" value="Update game&lt;div&gt;status&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-49" vertex="1" connectable="0">
+          <mxGeometry x="0.421" y="-42" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-51" value="raw_dictionary.json" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;fontStyle=1;fillColor=light-dark(#FFFFFF,#6666FF);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="680" y="585" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-52" value="Condense&lt;div&gt;Dictionary&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=light-dark(#FFFFFF,#6666FF);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="620" y="727.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-53" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-51" target="9hSV8TDn2q9NOghADnLz-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="930" as="sourcePoint" />
+            <mxPoint x="660" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-54" value="All info&amp;nbsp;&lt;div&gt;for all of the words:&amp;nbsp;&lt;/div&gt;&lt;div&gt;e.g. links, examples,&lt;div&gt;pronounciations, etc.&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-53" vertex="1" connectable="0">
+          <mxGeometry x="-0.2656" y="-16" relative="1" as="geometry">
+            <mxPoint x="-14" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-55" value="main_dict.json" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;fontStyle=1;fillColor=light-dark(#FFFFFF,#6666FF);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="420" y="830" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-58" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-52" target="9hSV8TDn2q9NOghADnLz-55" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="860" as="sourcePoint" />
+            <mxPoint x="540" y="891.72" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-59" value="Useful&lt;div&gt;information&lt;/div&gt;&lt;div&gt;(word, examples, link)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-58" vertex="1" connectable="0">
+          <mxGeometry x="0.4247" y="-15" relative="1" as="geometry">
+            <mxPoint x="15" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-60" value="Filter and&lt;div&gt;Transfer data&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=light-dark(#FFFFFF,#6666FF);strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="495" y="670" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-61" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-55" target="9hSV8TDn2q9NOghADnLz-60" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="805" as="sourcePoint" />
+            <mxPoint x="620" y="795" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-62" value="All words&lt;div&gt;and corrospoding&lt;/div&gt;&lt;div&gt;information&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-61" vertex="1" connectable="0">
+          <mxGeometry x="-0.3516" y="13" relative="1" as="geometry">
+            <mxPoint x="2" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-63" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9hSV8TDn2q9NOghADnLz-60" target="BWCX3i24N0bs6A5otOJ9-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="780" as="sourcePoint" />
+            <mxPoint x="500" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hSV8TDn2q9NOghADnLz-65" value="Remove words&lt;div&gt;too long or short,&lt;/div&gt;&lt;div&gt;and sort words by&lt;/div&gt;&lt;div&gt;initial&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9hSV8TDn2q9NOghADnLz-63" vertex="1" connectable="0">
+          <mxGeometry x="-0.0197" y="14" relative="1" as="geometry">
+            <mxPoint x="-3" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8cLotWQdzGzHUsloVdvt-1" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BWCX3i24N0bs6A5otOJ9-13" target="9hSV8TDn2q9NOghADnLz-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="790" as="sourcePoint" />
+            <mxPoint x="480" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8cLotWQdzGzHUsloVdvt-2" value="Check the lower and upper&lt;div&gt;bounds on word length&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8cLotWQdzGzHUsloVdvt-1">
+          <mxGeometry x="-0.0286" y="15" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
